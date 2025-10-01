@@ -4,6 +4,12 @@
 	"description": "Highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!",
 	"main": "lib/index.cjs",
 	"license": "MIT",
+	"dependencies": {
+  "helmet": "^7.0.0",
+  "cookie-parser": "^1.4.6",
+  "express-session": "^1.17.3"
+}
+
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/titaniumnetwork-dev/Ultraviolet.git"
